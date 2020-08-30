@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #ededed;
+  height: 100vh;
+}
+
+@media screen and (max-width: 700px) {
+  .App,
+  .app__body {
+    width: max-content;
+    height: max-content;
+  }
+}
+
+.app__body {
+  display: flex;
+  height: 100vh;
+}
+
+.homepage__background {
+  background-image: url(./images/Homepage.jpg);
+  flex: 1;
+  background-position: center;
+}

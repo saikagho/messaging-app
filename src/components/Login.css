@@ -1,0 +1,25 @@
+.login {
+  justify-content: center;
+}
+
+.login__container {
+  padding: 5em;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.login__text {
+  margin-top: 2em;
+}
+
+.login__container > button {
+  margin-top: 50px;
+  text-transform: inherit !important;
+  background-color: #0a8d48;
+  color: white;
+}
+
+.login__container > button:hover {
+  color: black;
+}
